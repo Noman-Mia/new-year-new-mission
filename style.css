@@ -119,26 +119,26 @@ header {
   padding-left: 30px;
   margin-right: 50px;
 
-
   /* section-3 */
 }
 .section-3 {
-  width: 1220px;
+  width: 1280px;
   height: 500px;
   background: rgba(255, 0, 0, 0.05);
   text-align: center;
-  margin: auto 50px 40px 65px;
-  padding-top:100px;
+  padding-top: 110px;
+  margin-left: 35px;
+  border-radius: 15px;
 }
-.section-3 h2 span{
-  color: #F00;
+.section-3 h2 span {
+  color: #f00;
   text-align: center;
   font-size: 32px;
   font-weight: 600;
   line-height: 56px; /* 175% */
   text-transform: capitalize;
 }
-.bttn{
+.bttn {
   padding: 13px 32px;
   border-radius: 8px;
   background: #f00;
@@ -146,4 +146,68 @@ header {
   font-size: 22px;
   font-weight: 700;
   margin-top: 40px;
+}
+
+/* section-4 */
+.section-4 {
+  display: flex;
+  width: 1330px;
+  height: 482px;
+  margin: 100px auto 50px 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-4 .container-1 {
+  width: 460px;
+  padding-left: 40px;
+}
+.container-1 h5 {
+  color: #f00;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.container-1 h1 {
+  color: #070211;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+}
+.container-1 p {
+  color: rgba(7, 2, 17, 0.6);
+
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.section-4 .container-2 {
+  width: 395px;
+}
+.container-2 img {
+  border: 4px red;
+}
+
+.section-4 .container-3 {
+  width: 340px;
+}
+.container-3 h1 {
+  color: #f00;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.container-3 p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.container-3 img {
+  width: 140px;
+  height: 120px;
 }
