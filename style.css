@@ -7,7 +7,7 @@
 
 header {
   width: 1280px;
-  height: 700px;
+  height: 605px;
   background-image: url(./resources/Banner\ Image.png);
   background-size: cover;
   background-position: center;
@@ -27,7 +27,7 @@ header {
   font-size: 42px;
   font-weight: 400;
   /* padding: 177px 530px 0px 530px; */
-  padding-top: 190px;
+  padding-top: 130px;
 }
 .header-description {
   color: #fff;
@@ -81,7 +81,7 @@ header {
   background-image: url(./resources/Vectorrr.png);
   background-size: cover;
   width: 1280px;
-  height: 700px;
+  height: 590px;
   margin: 100px auto 100px auto;
   border-radius: 6px;
   background-color: rgba(1, 33, 57, 0.741);
@@ -184,7 +184,7 @@ header {
 }
 
 .section-4 .container-2 {
-  width:457px;
+  width: 457px;
 }
 .container-2 img {
   border: 4px red;
@@ -216,6 +216,7 @@ header {
 .section-5 {
   width: 1364px;
   height: 733px;
+  padding-top: 50px;
 }
 .section-5-description {
   text-align: center;
@@ -239,25 +240,37 @@ header {
   font-size: 72px;
   font-weight: 900;
 }
-.section-5-description p{
-color: rgba(7, 2, 17, 0.60);
-text-align: center;
-font-family:sans-serif;
-font-size: 20px;
-font-weight: 500;
-line-height: 32px;
-padding-top: 20px;
+.section-5-description p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding-top: 20px;
 }
-.section-5{
-}
-.section-5-img{
+.section-5-img {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+.left-img {
+  /* width: 50%; */
   position: relative;
+  bottom: -106px;
 }
-.down-img{
-  display: flex;
-  position:relative;
-  width: 120px;
-height: 229px;
-flex-shrink: 0;
+.offer {
+  position: absolute;
+  left: -35%;
+}
+.offer-parent {
+  position: relative;
+  margin-left: -30px;
+}
+
+.red-img {
+  width: 80%;
+  margin: -120px 12px;
 }
