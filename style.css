@@ -106,7 +106,10 @@ header {
   font-weight: 400;
   padding-left: 100px;
 }
-.btn {
+button:hover{
+  background-color: rgb(8, 232, 232);
+}
+.btnn {
   padding: 13px 32px;
   border-radius: 8px;
   background: #f00;
@@ -146,6 +149,9 @@ header {
   font-size: 22px;
   font-weight: 700;
   margin-top: 40px;
+}
+.bttn:hover{
+  background-color: rgb(8, 232, 232);
 }
 
 /* section-4 */
