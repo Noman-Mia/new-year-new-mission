@@ -388,7 +388,7 @@ button:hover {
 }
 footer {
   width: 1580px;
-  /* height: 609px; */
+  height: 609px;
   background: #070211;
 }
 .footer-1 {
@@ -430,4 +430,17 @@ footer {
   text-align: center;
   margin-right: 166px;
   padding-top: 158px;
+}
+.last-description{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.last-description p{
+color: #FFF;
+font-family:sans-serif ;
+font-size: 24px;
+font-weight: 500;
+padding-top: 150px;
+margin-right: 230px;
 }
