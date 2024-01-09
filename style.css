@@ -106,7 +106,7 @@ header {
   font-weight: 400;
   padding-left: 100px;
 }
-button:hover{
+button:hover {
   background-color: rgb(8, 232, 232);
 }
 .btnn {
@@ -150,7 +150,7 @@ button:hover{
   font-weight: 700;
   margin-top: 40px;
 }
-.bttn:hover{
+.bttn:hover {
   background-color: rgb(8, 232, 232);
 }
 
@@ -279,4 +279,50 @@ button:hover{
 .red-img {
   width: 80%;
   margin: -120px 12px;
+}
+
+/* section-6 */
+
+.section-6 {
+  width: 424px;
+  height: 450px;
+  margin-top: 500px;
+  margin-left: 20px;
+}
+.section-6-description h4 {
+  color: #f00;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.section-6-description h2 {
+  color: #070211;
+  font-family: sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.section-6-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+}
+.section-6-all-img{
+  display: flex;
+}
+
+.section-6-img-1{
+  display: flex;
+  margin: 40px 1px 10px -1px;
+  gap: 20px;
+  
+}
+.section-6-img-2{
+ display: flex;
+ margin: 288px 19px 0px 19px;
+ gap: 20px;
+  
 }
